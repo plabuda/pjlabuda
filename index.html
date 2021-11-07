@@ -1,11 +1,14 @@
 ---
+my_number: 5
+title: PJ Łabuda's Homepage
 ---
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>PJ Łabuda's Homepage</title>
+    <title>{{ page.title }}</title>
 </head>
 <body>
  <h1>{{ "Welcome to the homepage of Piotr Jakub Łabuda" | downcase }}</h1>
+ <h2>{{ page.my_number }}</h2>
 </body></html>
