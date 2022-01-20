@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+     <link rel="stylesheet"
+        href="https://cdn.skypack.dev/-/holiday.css@v0.9.5-Jl4gV7y2zMps6H5ZtJC8/dist=es2020,mode=raw/dist/holiday.css">
+    <style>
+        html {
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+            display: inline-flex;
+            justify-content: space-evenly;
+            overflow: hidden;
+            background-color: #BBB;
+        }
+
+        .appContainer {
+            align-self: center;
+            position: relative;
+            width: 600px;
+            display: inline-flex;
+            flex-direction: column;
+            background-color: transparent;
+        }
+    </style>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 </head>
-<body style="background-color: aquamarine;">
+<body>    
+    <div class="appContainer">
     {{ content }}
     {{ page.url }}
     {% include navigation.html %}
+    </div>
 </body></html>
