@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-     <link rel="stylesheet"
+    <link rel="stylesheet"
         href="https://cdn.skypack.dev/-/holiday.css@v0.9.5-Jl4gV7y2zMps6H5ZtJC8/dist=es2020,mode=raw/dist/holiday.css">
     <style>
         html {
@@ -18,25 +19,26 @@
             display: inline-flex;
             justify-content: space-evenly;
             overflow: hidden;
-            background-color: #BBB;
         }
 
         .appContainer {
             align-self: center;
             position: relative;
-            width: 600px;
             display: inline-flex;
             flex-direction: column;
             background-color: transparent;
         }
     </style>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Piotr Łabuda</title>
 </head>
-<body>    
+
+<body>
     <div class="appContainer">
-    {{ content }}
-    {{ page.url }}
-    {% include navigation.html %}
+        {{ content }}
+        {{ page.url }}
+        {% include navigation.html %}
     </div>
-</body></html>
+</body>
+
+</html>
