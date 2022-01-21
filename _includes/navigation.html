@@ -1,4 +1,6 @@
-<nav>
-  <a href="/pjlabuda/" {% if page.url == "/"  %}style="color:red;" {% endif %}>Home</a>
-  <a href="/pjlabuda/about.html" {% if page.url == "/about.html"  %}style="color: red;"{% endif %}>About</a>
-</nav>
+<ul>
+  {% assign mypages = site.pages | sort: "order" %}
+    {% for page in mypages %}
+    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
