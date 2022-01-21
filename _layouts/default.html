@@ -35,8 +35,14 @@
 
 <body>
     <div class="appContainer">
+        {% include navigation.html %}
         {{ content }}
-        {{ page.url }}
+        <ul>
+            {% for project in site.projects %}
+              <li><h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+              </li>
+            {% endfor %}
+          </ul>
     </div>
 </body>
 
