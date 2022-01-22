@@ -3,8 +3,11 @@ collections:
     output: true
 baseurl: /pjlabuda
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  - scope:
+      path: "authors"
+    values:
+      layout: "project" # overrides previous default layout
