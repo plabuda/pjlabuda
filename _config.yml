@@ -8,6 +8,6 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_authors"
+      path: "pjlabuda/authors"
     values:
       layout: "project" # overrides previous default layout
