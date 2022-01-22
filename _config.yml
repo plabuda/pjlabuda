@@ -8,6 +8,6 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "authors"
+      path: "_authors"
     values:
       layout: "project" # overrides previous default layout
