@@ -12,3 +12,5 @@ defaults:
       type: "authors"
     values:
       layout: "project"
+      number: "07"
+      project_title: "Test Title"
