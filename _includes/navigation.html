@@ -1,6 +1,6 @@
 <nav>
   {% assign mypages = site.html_pages | sort: "order" %}
   {% for page in mypages %}
-  <a href="{{ page.url | absolute_url }}">_{{ page.title }}_</a>
+  <a href="{{ page.url | absolute_url }}">{{ page.title }} </a>
   {% endfor %}
 </nav>

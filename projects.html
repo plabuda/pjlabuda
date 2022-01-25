@@ -1,10 +1,10 @@
 ---
-title: Staff
+title: Projects
 ---
-<h1>Staff</h1>
+<h1>{{ page.title }}</h1>
 
 <ul>
-    {% for project in site.authors %}
+    {% for project in site.projects %}
     <li>
         <a href="{{ project.url | relative_url }}">
             <h2>{{ project.title }}</h2>
