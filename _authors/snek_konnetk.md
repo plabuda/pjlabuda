@@ -2,9 +2,11 @@
 short_name: Snek
 name: Snek Konnekt
 position: First Adventure
+iframe_width: 550
+iframe_height: 570
 ---
 
-<iframe src="https://itch.io/embed-upload/1865249?color=0484d1" allowfullscreen="" width="550" height="570" frameborder="0"><a href="https://nora-sellisa.itch.io/snek-konnekt">Play Snek Konnekt on itch.io</a></iframe>
+<iframe style="font-size: larger; width: {{ iframe_width }}px; height: {{ iframe_height }}px;" src="https://itch.io/embed-upload/1865249?color=0484d1" allowfullscreen="" width="{{ iframe_width }}" height="{{ iframe_height }}" frameborder="0"><a href="https://nora-sellisa.itch.io/snek-konnekt">Play Snek Konnekt on itch.io</a></iframe>
 
 ## Snek Konnekt was my first game using *Flutter*
 I wrote it in the *Dart* language around late 2019.  
