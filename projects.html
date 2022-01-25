@@ -5,11 +5,10 @@ title: Projects
 
 <ul>
     {% for project in site.projects %}
-    <li>
-        <a href="{{ project.url | relative_url }}">
-            <h2>{{ project.title }}</h2>
-            <h3>{{ project.short_desc }}</h3>
+    <li><a href="{{ project.url | relative_url }}">
+            <h2>{{ project.number }} | {{ project.title }}</h2>
         </a>
+        <h3>{{ project.short_desc }}</h3>
     </li>
     {% endfor %}
 </ul>
