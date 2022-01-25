@@ -1,7 +1,6 @@
 ---
-short_name: Snek
-name: Snek Konnekt
-position: First Adventure
+title: Snek Konnekt
+short_desc: A simple puzzle game, from Flutter to HTML5
 iframe_width: 550
 iframe_height: 570
 iframe_source: https://itch.io/embed-upload/1865249?color=0484d1

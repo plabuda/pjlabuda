@@ -4,12 +4,12 @@ title: Staff
 <h1>Staff</h1>
 
 <ul>
-    {% for author in site.authors %}
+    {% for project in site.authors %}
     <li>
-        <a href="{{ author.url | relative_url }}">
-            <h2>{{ author.name }}</h2>
+        <a href="{{ project.url | relative_url }}">
+            <h2>{{ project.title }}</h2>
+            <h3>{{ project.short_desc }}</h3>
         </a>
-        <h3>{{ author.position }}</h3>
     </li>
     {% endfor %}
 </ul>

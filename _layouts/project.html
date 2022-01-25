@@ -1,11 +1,9 @@
 ---
 layout: default
-number: 01
-project_title: Project Title
 ---
 
-<p><span style="font-size: larger;">{{ page.number }}</span> <span>
-        <h1>{{ page.title }}</h1>
-    </span>
+<h1>{{ page.number }} | {{ page.title }}</h1>
 
-    {{ content }}</p>
+---
+<h2> {{ page.short_desc }}</h2>
+{{ content }}

@@ -13,4 +13,5 @@ defaults:
     values:
       layout: "project"
       number: "07"
-      project_title: "Test Title"
+      title: "Test Title"
+      short_desc: "No description."
