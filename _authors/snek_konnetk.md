@@ -4,18 +4,18 @@ name: Snek Konnekt
 position: First Adventure
 iframe_width: 550
 iframe_height: 570
+iframe_source: https://itch.io/embed-upload/1865249?color=0484d1
 ---
 
 <iframe style="font-size: larger; width: {{ page.iframe_width }}px; height: {{ page.iframe_height }}px;" 
         width="{{ page.iframe_width }}" height="{{ page.iframe_height }}"
-        allowfullscreen=""  frameborder="0"
-        src="https://itch.io/embed-upload/1865249?color=0484d1" >
-        <a href="https://nora-sellisa.itch.io/snek-konnekt">Play Snek Konnekt on itch.io</a>
+        frameborder="0"
+        src="{{ page.iframe_source }}">
 </iframe>
 
 ## Snek Konnekt was my first game using *Flutter*
 I wrote it in the *Dart* language around late 2019.  
-I think this might have been an attempt at doing **something** that year, no matter how small.  
+As the description suggests, this was an attempt at doing **something** that year, no matter how small.  
 The game itself is not very complicated, but I made it a technical challenge for myself. The entire game is rendered using 2D elements, with transforms applied to look like 3D faces. If memory serves, it wasn't perfect, hence the rotation being allowed only on one axis.  
 
 Originally I envisioned something much more, advanced, with more levels, some powerups, verticality (snek could ride on itself from lower levels). At some point my patience with the project reached its limit, and I luckily decided to just finish up and publish it instead of dropping the project.  
