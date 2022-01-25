@@ -1,6 +1,7 @@
 collections:
-  authors:
+  projects:
     output: true
+    sort_by: number
 baseurl: /pjlabuda
 defaults:
   - scope:
@@ -9,9 +10,9 @@ defaults:
       layout: "default"
   - scope:
       path: "" # an empty string here means all files in the project
-      type: "authors"
+      type: "projects"
     values:
       layout: "project"
-      number: "07"
+      number: "99"
       title: "Test Title"
       short_desc: "No description."
